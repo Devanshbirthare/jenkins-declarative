@@ -1,0 +1,17 @@
+pipeline
+{
+    agent any
+    stages
+    { stage('abc')
+      { steps{  }
+      }
+      }
+        { stage('gh')
+      { steps{  }
+      }
+      }
+        { stage('kn')
+      { steps{  }
+      }ls
+      }
+}
