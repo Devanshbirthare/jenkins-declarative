@@ -2,15 +2,15 @@ pipeline
 {
     agent any
     stages
-    { stage('abc')
+    { stage('build')
       { steps{  }
       }
       }
-        { stage('gh')
+        { stage('test')
       { steps{  }
       }
       }
-        { stage('kn')
+        { stage('print')
       { steps{  }
       }ls
       }
